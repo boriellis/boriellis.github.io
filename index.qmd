@@ -1,8 +1,24 @@
 ---
 title: "Aspen Ellis"
 ---
+image: headshot.jpg
+2toc: false
+about: 
+3  template: trestles
+4  image-shape: round
+  image-width: 20em
+5  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/aspen-ellis/
+    - text: Twitter
+      href: https://twitter.com/boriellis
+    - text: GitHub
+      href: https://github.com/boriellis
+    - text: Email
+      href: mailto:aaellis@ucsc.edu
+---
 
-### Welcome! 
+### Welcome!
 
 ------------------------------------------------------------------------
 
