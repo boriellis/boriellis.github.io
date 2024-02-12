@@ -1,13 +1,13 @@
 ---
 title: "Aspen Ellis"
----
+
 image: headshot.jpg
-2toc: false
+toc: false
 about: 
-3  template: trestles
-4  image-shape: round
+  template: trestles
+  image-shape: round
   image-width: 20em
-5  links:
+  links:
     - text: LinkedIn
       href: https://www.linkedin.com/in/aspen-ellis/
     - text: Twitter
