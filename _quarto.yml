@@ -10,6 +10,8 @@ website:
         text: Home
       - href: research.qmd
         text: Current Research
+      - href: publications.qmd
+        text: Scientific Publications
 
 format:
   html:
