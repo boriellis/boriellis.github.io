@@ -15,8 +15,10 @@ website:
 
 format:
   html:
-    theme: solar
+    theme: 
+      - styles.scss
     css: styles.css
+    mainfont: Open Sans
     toc: true
     page-layout: full
 

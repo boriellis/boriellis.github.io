@@ -1,0 +1,24 @@
+/*-- scss:defaults --*/
+
+
+//Colors
+$navy: #1A2437;
+$darkgrey: #545D6A;
+$lightgrey: #C2D1E2;
+$white: #FFFFFF;
+$red: #C8351E;
+
+//Base document colors
+$navbar-bg: $darkgrey; // navbar
+$navbar-fg: $lightgrey; // navbar foreground elements
+$navbar-hl: $white; // highlight color when hovering over navbar links
+$body-bg: $navy; //background
+$body-color: $white; // page text 
+$link-color: $red; // hyperlinks 
+
+//Fonts
+//import fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+$font-weight-normal: 300;
+
+
