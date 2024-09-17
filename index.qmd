@@ -17,12 +17,12 @@ about:
     - text: Email
       href: mailto:aaellis@ucsc.edu
     - text: CV
-      href: boriellis.github.io/docs/Ellis_CV_2024.pdf
+      href: https://github.com/boriellis/boriellis.github.io/docs/Ellis_CV_2024.pdf
 ---
 
 ### Welcome!
 
-TEST My name is Aspen Ellis - I'm a seabird conservation ecologist and a Ph.D. candidate and NOAA Dr. Nancy Foster Scholar at the University of California, Santa Cruz. My current research focuses on mitigation strategies for the impacts of offshore wind energy development to seabirds.
+My name is Aspen Ellis - I'm a seabird conservation ecologist and a Ph.D. candidate and NOAA Dr. Nancy Foster Scholar at the University of California, Santa Cruz. My current research focuses on mitigation strategies for the impacts of offshore wind energy development to seabirds.
 
 ------------------------------------------------------------------------
 
