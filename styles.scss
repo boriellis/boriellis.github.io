@@ -25,25 +25,37 @@ $font-weight-normal: 300;
 .navbar {
     min-height: 150px;  /* Adjust this value as needed */
 }
-/* Make sure the navbar is using flexbox */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;  /* Vertically center the navbar content */
-}
 
-/* Push the navigation links to the right */
+/* Right-align the navigation links */
 .navbar-nav {
-    margin-left: auto;  /* This pushes the nav items to the right */
+    margin-left: auto;
 }
 
-/* Ensure the brand stays on the left */
-.navbar-brand {
-    margin-right: auto;  /* Ensures the brand is on the left side */
+
+/* Set the navbar background to an image */
+.navbar {
+    background-image: url('docs/nav-background.jpg');  /* Path to your image */
+    background-size: cover;  /* Ensure the image covers the navbar area */
+    background-position: center;  /* Center the background image */
+    background-repeat: no-repeat;  /* Prevent the image from repeating */
 }
 
-/* Ensure the links are properly spaced and aligned */
-.navbar-nav > li {
-    margin-left: 20px;  /* Add some spacing between nav items */
+/* Optional: Add a semi-transparent overlay to enhance text readability */
+.navbar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);  /* Adjust the opacity as needed */
+    z-index: 0;
 }
 
+/* Ensure navbar content is layered over the image */
+.navbar .navbar-brand,
+.navbar-nav > li > a {
+    position: relative;
+    z-index: 1;
+    color: white;  /* Adjust text color to stand out against the background */
+}
