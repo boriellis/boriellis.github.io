@@ -25,25 +25,9 @@ $font-weight-normal: 300;
 .navbar {
     min-height: 150px;  /* Adjust this value as needed */
 }
-/* Make sure the navbar is using flexbox */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;  /* Vertically center the navbar content */
-}
 
-/* Push the navigation links to the right */
+/* Right-align the navigation links */
 .navbar-nav {
-    margin-left: auto;  /* This pushes the nav items to the right */
-}
-
-/* Ensure the brand stays on the left */
-.navbar-brand {
-    margin-right: auto;  /* Ensures the brand is on the left side */
-}
-
-/* Ensure the links are properly spaced and aligned */
-.navbar-nav > li {
-    margin-left: 20px;  /* Add some spacing between nav items */
+    margin-left: auto;
 }
 
