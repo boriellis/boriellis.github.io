@@ -21,4 +21,29 @@ $link-color: $red; // hyperlinks
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 $font-weight-normal: 300;
 
+/* Increase the height of the navigation bar */
+.navbar {
+    min-height: 150px;  /* Adjust this value as needed */
+}
+/* Make sure the navbar is using flexbox */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  /* Vertically center the navbar content */
+}
+
+/* Push the navigation links to the right */
+.navbar-nav {
+    margin-left: auto;  /* This pushes the nav items to the right */
+}
+
+/* Ensure the brand stays on the left */
+.navbar-brand {
+    margin-right: auto;  /* Ensures the brand is on the left side */
+}
+
+/* Ensure the links are properly spaced and aligned */
+.navbar-nav > li {
+    margin-left: 20px;  /* Add some spacing between nav items */
+}
 
