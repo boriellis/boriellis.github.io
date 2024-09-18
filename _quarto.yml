@@ -9,9 +9,9 @@ website:
       - href: index.qmd
         text: Home
       - href: research.qmd
-        text: Current Research
+        text: Current Projects
       - href: publications.qmd
-        text: Scientific Publications
+        text: Publications
 
 format:
   html:
