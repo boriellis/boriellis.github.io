@@ -1,0 +1,1 @@
+Max: I switched your default git text editor from vim (impossible to use) to nano (merely difficult to use). If it opens (e.g. commit message for a merge), change the text as you want then use ctrl-x to exit. Google the instructions for nano if you get stuck (or call me).
