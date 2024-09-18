@@ -1,7 +1,6 @@
 ---
 title: "Aspen Ellis"
-
-image: headshot.jpg
+image: images/headshot.jpg
 toc: false
 about: 
   template: trestles
