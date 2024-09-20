@@ -31,3 +31,32 @@ $font-weight-normal: 300;
     margin-left: auto;
 }
 
+
+/* Set the navbar background to an image */
+.navbar {
+    background-image: url('images/DSCN0091.jpeg');  /* Path to your image */
+    background-size: cover;  /* Ensure the image covers the navbar area */
+    background-position: center;  /* Center the background image */
+    background-repeat: no-repeat;  /* Prevent the image from repeating */
+}
+
+/* Optional: Add a semi-transparent overlay to enhance text readability */
+.navbar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);  /* Adjust the opacity as needed */
+    z-index: 0;
+}
+
+/* Ensure navbar content is layered over the image */
+.navbar .navbar-brand,
+.navbar-nav > li > a {
+    position: relative;
+    z-index: 1;
+    color: white;  /* Adjust text color to stand out against the background */
+}
+
