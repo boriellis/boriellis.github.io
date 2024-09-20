@@ -23,7 +23,7 @@ $font-weight-normal: 300;
 
 /* Increase the height of the navigation bar */
 .navbar {
-    min-height: 130px;  /* Adjust this value as needed */
+    min-height: 150px;  /* Adjust this value as needed */
 }
 
 /* Right-align the navigation links */
@@ -31,10 +31,9 @@ $font-weight-normal: 300;
     margin-left: auto;
 }
 
-
 /* Set the navbar background to an image */
 .navbar {
-    background-image: url('images/navbar2.jpeg');  /* Path to your image */
+     background-image: url('images/navbar2.jpeg');   /* Path to your image */
     background-size: cover;  /* Ensure the image covers the navbar area */
     background-position: center;  /* Center the background image */
     background-repeat: no-repeat;  /* Prevent the image from repeating */
@@ -59,4 +58,3 @@ $font-weight-normal: 300;
     z-index: 1;
     color: white;  /* Adjust text color to stand out against the background */
 }
-

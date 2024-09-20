@@ -22,5 +22,12 @@ format:
     toc: true
     page-layout: full
 
-editor: visual
+page-specific:
+  - index.qmd:
+      body-class: index-page
+  - research.qmd:
+      body-class: research-page
+  - publications.qmd:
+      body-class: publications-page
 
+editor: visual
