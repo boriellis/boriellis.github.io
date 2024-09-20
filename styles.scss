@@ -34,7 +34,7 @@ $font-weight-normal: 300;
 
 /* Set the navbar background to an image */
 .navbar {
-    background-image: url('images/DSCN0091.jpeg');  /* Path to your image */
+    background-image: url('images/navbar.jpeg');  /* Path to your image */
     background-size: cover;  /* Ensure the image covers the navbar area */
     background-position: center;  /* Center the background image */
     background-repeat: no-repeat;  /* Prevent the image from repeating */
@@ -48,7 +48,7 @@ $font-weight-normal: 300;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0);  /* Adjust the opacity as needed */
+    background-color: rgba(0, 0, 0, 0.4);  /* Adjust the opacity as needed */
     z-index: 0;
 }
 
