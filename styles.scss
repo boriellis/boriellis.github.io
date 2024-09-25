@@ -23,20 +23,29 @@ $font-weight-normal: 300;
 
 /* Increase the height of the navigation bar */
 .navbar {
+    display: flex;
+    justify-content: space-between;  /* Pushes title to the left and links to the right */
+    align-items: center;  /* Vertically centers the items */
+    padding: 0 20px;  /* Add some padding for spacing */
     min-height: 150px;  /* Adjust this value as needed */
+    background-image: url('images/navbar2.jpeg');   /* Path to your image */
+    background-size: cover;  /* Ensure the image covers the navbar area */
+    background-position: center;  /* Center the background image */
+    background-repeat: no-repeat;  /* Prevent the image from repeating */
+}
+
+/* Title or logo on the left side */
+.navbar .navbar-brand {
+    float: left;
+    font-size: 24px;  /* Adjust font size as needed */
+    font-weight: bold;
+    color: $navbar-fg;  /* Your navbar foreground color */
 }
 
 /* Right-align the navigation links */
 .navbar-nav {
-    margin-left: auto;
-}
-
-/* Set the navbar background to an image */
-.navbar {
-     background-image: url('images/navbar2.jpeg');   /* Path to your image */
-    background-size: cover;  /* Ensure the image covers the navbar area */
-    background-position: center;  /* Center the background image */
-    background-repeat: no-repeat;  /* Prevent the image from repeating */
+    display: flex;  /* Makes sure the nav links are laid out in a row */
+    margin-left: auto;  /* Pushes the nav links to the right */
 }
 
 /* Optional: Add a semi-transparent overlay to enhance text readability */
