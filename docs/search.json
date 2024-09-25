@@ -4,7 +4,7 @@
     "href": "research.html",
     "title": "Projects",
     "section": "",
-    "text": "No matching items"
+    "text": "Queer Ecologies\n\n\nAn undergraduate seminar course exploring queer perspectives on familar ecological topics.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -19,5 +19,12 @@
     "title": "Aspen Ellis",
     "section": "",
     "text": "Max: I switched your default git text editor from vim (impossible to use) to nano (merely difficult to use). If it opens (e.g. commit message for a merge), change the text as you want then use ctrl-x to exit. Google the instructions for nano if you get stuck (or call me)."
+  },
+  {
+    "objectID": "projects/queer_ecologies/index.html",
+    "href": "projects/queer_ecologies/index.html",
+    "title": "Queer Ecologies",
+    "section": "",
+    "text": "Allison Payne and I first designed and taught our course, titled Queer Ecologies, in spring 2023, and re-offered it in Spring 2024. This class was a seminar style undergraduate course designed to expand students’ horizons, uplift queer perspectives in ecology, and build queer community. We’re looking forward to re-offering the class in the future!\nDon’t miss checking out our students’ incredible Unessay[^1] projects here!"
   }
 ]

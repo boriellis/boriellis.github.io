@@ -1,1 +1,10 @@
+---
+title: "Queer Ecologies"
+description: "An undergraduate seminar course exploring queer perspectives on familar ecological topics."
+draft: false 
+image: queerecobanner.jpeg
+---
 
+[Allison Payne](https://allisonpayne.github.io) and I first designed and taught our course, titled [**Queer Ecologies**](https://allisonpayne.github.io/queerecologies), in spring 2023, and re-offered it in Spring 2024. This class was a seminar style undergraduate course designed to expand students' horizons, uplift queer perspectives in ecology, and build queer community. We're looking forward to re-offering the class in the future!
+
+Don't miss checking out our students' incredible Unessay\[\^1\] projects [here](https://allisonpayne.github.io/queerecologies/2023/week10.html)!
