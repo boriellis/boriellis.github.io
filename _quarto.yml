@@ -14,6 +14,8 @@ website:
         text: Current Projects
       - href: publications.qmd
         text: Publications
+      - href: media.qmd
+        text: In The Media
 
 format:
   html:
@@ -40,5 +42,7 @@ page-specific:
       body-class: research-page
   - publications.qmd:
       body-class: publications-page
+  - media.qmd:
+      body-class: media-page
 
 editor: visual
